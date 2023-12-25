@@ -8,7 +8,7 @@ const Stars = ({stars}) => {
   const[rating,setRating]=useState(star_value);
   const[hover,setHover]=useState(0);
 
-
+// 
   function click(params) { 
     setRating(params) 
   }
